@@ -1,0 +1,105 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="CHOOSE TOPPINGS "
+        android:textSize="6mm"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#eceff1" />
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_marginTop="5dp"
+        android:textAlignment="center"
+        android:text="ONIONS"
+        android:textSize="35dp"
+        android:textStyle="normal"
+        android:buttonTint="#ffff"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        android:text="BLACK OLIVES"
+        android:textAlignment="center"
+        android:buttonTint="#ffff"
+        />
+
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        android:text="LETTUCE"
+        android:textAlignment="center"
+        android:buttonTint="#ffff"
+        />
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        android:text="PEPPERS"
+        android:textAlignment="center"
+        android:buttonTint="#ffff"
+        />
+    <CheckBox
+        android:id="@+id/checkBox5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        android:text="TOMATOES"
+        android:textAlignment="center"
+        android:buttonTint="#ffff"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox6"
+        android:buttonTint="#ffff"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        android:text="JALAPENOS"
+        android:textAlignment="center"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:textSize="35dp"
+        android:text="CHICKEN BITES"
+        android:textAlignment="center"
+        android:buttonTint="#ffff"
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Next: DRESSINGS"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/border"
+        />
+
+</LinearLayout>

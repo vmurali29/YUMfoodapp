@@ -1,0 +1,43 @@
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center_vertical"
+    android:background="@drawable/gradient"
+    >
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="222dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center_horizontal"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/shoppingcart"
+        android:drawableLeft="@drawable/shoppingcart"
+        android:drawablePadding=".1dp"
+        android:text="Order Now"
+        android:textSize="25dp"
+        android:textColor="#ffff"
+        android:fontFamily="casual"
+
+
+        />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="222dp"
+        android:layout_height="66dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:background="@drawable/border"
+        android:drawableStart="@drawable/star"
+        android:drawableLeft="@drawable/star"
+        android:drawablePadding="0.1dp"
+        android:text="Favorites"
+        android:textSize="26dp"
+        android:textColor="#ffff"
+        android:fontFamily="casual"/>
+
+
+</LinearLayout>

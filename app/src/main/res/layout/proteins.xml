@@ -1,0 +1,72 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/gradient"
+
+    >
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="CHOOSE PROTEINS"
+        android:textSize="6mm"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#eceff1"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="3dp"
+        android:textAlignment="center"
+        android:text="DELI CHICKEN"
+        android:textSize="35dp"
+        android:textStyle="normal"
+        android:buttonTint="#ffff"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="80dp"
+        android:layout_marginTop="35dp"
+        android:buttonTint="#ffff"
+        android:text="TURKEY"
+        android:textAlignment="center"
+        android:textSize="35dp" />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:textSize="35dp"
+        android:text="BEEF"
+        android:textAlignment="center"
+        android:buttonTint="#ffff"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="NO MEAT"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:buttonTint="#ffff"/>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="Next: Toppings"
+        android:background="@drawable/border"
+        />
+
+
+</LinearLayout>

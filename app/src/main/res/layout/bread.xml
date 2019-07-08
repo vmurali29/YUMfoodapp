@@ -1,0 +1,65 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background= "@drawable/gradient"
+
+    >
+
+    <TextView
+
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="42dp"
+        android:text="CHOOSE BREAD TYPE "
+        android:textSize="6mm"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#eceff1"/>
+
+    <CheckBox
+        android:id="@+id/checkBox"
+        android:layout_width="match_parent"
+        android:layout_height="81dp"
+        android:layout_marginTop="50dp"
+        android:textAlignment="center"
+        android:text="SANDWICH BREAD"
+        android:textSize="35dp"
+        android:textStyle="normal"
+        android:buttonTint="#ffff"
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox2"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginTop="100dp"
+        android:text="WRAP"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:typeface="serif"
+        android:buttonTint="#ffff"
+
+        />
+
+    <CheckBox
+        android:id="@+id/checkBox3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="150dp"
+        android:text="ROLL"
+        android:textAlignment="center"
+        android:textSize="35dp"
+        android:typeface="serif"
+        android:buttonTint="#ffff"/>
+
+    <Button
+        android:id="@+id/bSubmit"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/border"
+        android:text="Next: CHEESE" />
+
+
+</LinearLayout>
